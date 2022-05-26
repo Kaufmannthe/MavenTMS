@@ -1,13 +1,15 @@
 package BookTask;
 
-import javax.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlType;
+
 
 @XmlRootElement
+@XmlType(name = "book")
 public class Book {
     private int bookArticle;
     private String bookName;
     private int bookRelease;
-    private Book books;
 
     public int getBookArticle() {
         return bookArticle;
@@ -33,19 +35,10 @@ public class Book {
         this.bookRelease = bookRelease;
     }
 
-    public Book getBooks() {
-        return books;
-    }
-
-    public void setBooks(Book books) {
-        this.books = books;
-    }
-
     public Book(int bookArticle, String bookName, int bookRelease, Book books) {
         this.bookArticle = bookArticle;
         this.bookName = bookName;
         this.bookRelease = bookRelease;
-        this.books = books;
     }
 
     public Book() {
@@ -57,7 +50,6 @@ public class Book {
                 "bookArticle=" + bookArticle +
                 ", bookName='" + bookName + '\'' +
                 ", bookRelease=" + bookRelease +
-                ", books=" + books +
                 '}';
     }
 }

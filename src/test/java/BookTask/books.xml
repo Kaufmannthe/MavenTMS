@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book>
+    <bookArticle>1</bookArticle>
+    <bookName>First Book</bookName>
+    <bookRelease>1999</bookRelease>
+</book>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book>
+    <bookArticle>2</bookArticle>
+    <bookName>Second book</bookName>
+    <bookRelease>2000</bookRelease>
+</book>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book>
+    <bookArticle>3</bookArticle>
+    <bookName>Third book</bookName>
+    <bookRelease>2002</bookRelease>
+</book>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book>
+    <bookArticle>4</bookArticle>
+    <bookName>Forth book</bookName>
+    <bookRelease>2004</bookRelease>
+</book>
